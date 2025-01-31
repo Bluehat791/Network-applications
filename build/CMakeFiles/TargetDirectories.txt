@@ -1,6 +1,0 @@
-/home/anatoliy/projects/edu/Network-Applications/build/CMakeFiles/templates1.dir
-/home/anatoliy/projects/edu/Network-Applications/build/CMakeFiles/edit_cache.dir
-/home/anatoliy/projects/edu/Network-Applications/build/CMakeFiles/rebuild_cache.dir
-/home/anatoliy/projects/edu/Network-Applications/build/Headers/CMakeFiles/Headers.dir
-/home/anatoliy/projects/edu/Network-Applications/build/Headers/CMakeFiles/edit_cache.dir
-/home/anatoliy/projects/edu/Network-Applications/build/Headers/CMakeFiles/rebuild_cache.dir

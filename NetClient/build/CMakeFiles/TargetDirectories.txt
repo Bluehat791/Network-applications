@@ -1,0 +1,3 @@
+/home/anatoliy/projects/edu/Network-Applications/NetClient/build/CMakeFiles/SimpleClient.dir
+/home/anatoliy/projects/edu/Network-Applications/NetClient/build/CMakeFiles/edit_cache.dir
+/home/anatoliy/projects/edu/Network-Applications/NetClient/build/CMakeFiles/rebuild_cache.dir
