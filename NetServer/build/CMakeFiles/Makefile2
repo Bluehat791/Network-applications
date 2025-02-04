@@ -54,20 +54,20 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anatoliy/projects/edu/Network-Applications/NetCommon
+CMAKE_SOURCE_DIR = /home/anatoliy/projects/edu/Network-Applications/NetServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anatoliy/projects/edu/Network-Applications/NetCommon/build
+CMAKE_BINARY_DIR = /home/anatoliy/projects/edu/Network-Applications/NetServer/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/NetCommon.dir/all
+all: CMakeFiles/NetServer.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/NetCommon.dir/codegen
+codegen: CMakeFiles/NetServer.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/NetCommon.dir/clean
+clean: CMakeFiles/NetServer.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/NetCommon.dir
+# Target rules for target CMakeFiles/NetServer.dir
 
 # All Build rule for target.
-CMakeFiles/NetCommon.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetCommon.dir/build.make CMakeFiles/NetCommon.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetCommon.dir/build.make CMakeFiles/NetCommon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles --progress-num=1,2 "Built target NetCommon"
-.PHONY : CMakeFiles/NetCommon.dir/all
+CMakeFiles/NetServer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetServer.dir/build.make CMakeFiles/NetServer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetServer.dir/build.make CMakeFiles/NetServer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anatoliy/projects/edu/Network-Applications/NetServer/build/CMakeFiles --progress-num=1,2 "Built target NetServer"
+.PHONY : CMakeFiles/NetServer.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/NetCommon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/NetCommon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles 0
-.PHONY : CMakeFiles/NetCommon.dir/rule
+CMakeFiles/NetServer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anatoliy/projects/edu/Network-Applications/NetServer/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/NetServer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anatoliy/projects/edu/Network-Applications/NetServer/build/CMakeFiles 0
+.PHONY : CMakeFiles/NetServer.dir/rule
 
 # Convenience name for target.
-NetCommon: CMakeFiles/NetCommon.dir/rule
-.PHONY : NetCommon
+NetServer: CMakeFiles/NetServer.dir/rule
+.PHONY : NetServer
 
 # codegen rule for target.
-CMakeFiles/NetCommon.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetCommon.dir/build.make CMakeFiles/NetCommon.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles --progress-num=1,2 "Finished codegen for target NetCommon"
-.PHONY : CMakeFiles/NetCommon.dir/codegen
+CMakeFiles/NetServer.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetServer.dir/build.make CMakeFiles/NetServer.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anatoliy/projects/edu/Network-Applications/NetServer/build/CMakeFiles --progress-num=1,2 "Finished codegen for target NetServer"
+.PHONY : CMakeFiles/NetServer.dir/codegen
 
 # clean rule for target.
-CMakeFiles/NetCommon.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetCommon.dir/build.make CMakeFiles/NetCommon.dir/clean
-.PHONY : CMakeFiles/NetCommon.dir/clean
+CMakeFiles/NetServer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetServer.dir/build.make CMakeFiles/NetServer.dir/clean
+.PHONY : CMakeFiles/NetServer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

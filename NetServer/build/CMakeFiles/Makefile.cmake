@@ -7,19 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/anatoliy/projects/edu/Network-Applications/NetCommon/CMakeLists.txt"
+  "/home/anatoliy/projects/edu/Network-Applications/NetServer/CMakeLists.txt"
   "CMakeFiles/3.31.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.5/CMakeSystem.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfigVersion.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.74.0.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/boost_system-1.74.0/boost_system-config-version.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/boost_system-1.74.0/boost_system-config.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/boost_system-1.74.0/libboost_system-variant-shared.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/boost_system-1.74.0/libboost_system-variant-static.cmake"
   "/usr/share/cmake-3.31/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.31/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
@@ -32,9 +23,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.31/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.31/Modules/Compiler/GNU.cmake"
-  "/usr/share/cmake-3.31/Modules/FindBoost.cmake"
-  "/usr/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
-  "/usr/share/cmake-3.31/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake"
   "/usr/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "/usr/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
@@ -66,5 +54,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/NetCommon.dir/DependInfo.cmake"
+  "CMakeFiles/NetServer.dir/DependInfo.cmake"
   )

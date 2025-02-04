@@ -1,0 +1,2 @@
+/usr/bin/ar qc libNetCommon.a CMakeFiles/NetCommon.dir/main.cpp.o
+/usr/bin/ranlib libNetCommon.a

@@ -29,11 +29,13 @@ namespace olc
                 m_connection = std::make_unique<connection<T>>();
 
                 asio::ip::tcp::resolver resolver(m_context);
-                m_endpoints = resolver.resolve(host,std::to_string(port));
+                
 
-                m_connection->ConnectToServer(m_endpoints);
+                //m_endpoints = resolver.resolve(host,std::to_string(port));
 
-                thrContext = std::thread([this](){m_context.run();})
+                //m_connection->ConnectToServer(m_endpoints);
+
+                thrContext = std::thread([this](){m_context.run();});
             }
             catch(const std::exception& e)
             {
@@ -57,6 +59,7 @@ namespace olc
             {
                 thrContext.join();
             }
+
 
             m_connection.release();
             

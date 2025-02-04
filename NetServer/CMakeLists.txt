@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(NetClient)
+project(NetServer)
 
 set(CMAKE_CXX_STANDARD 20) # или более подходящий стандарт
 
@@ -7,13 +7,13 @@ set(CMAKE_CXX_STANDARD 20) # или более подходящий станда
 include_directories(../NetCommon/Headers)
 
 # Создаем исполняемый файл
-add_executable(NetClient SimpleClient.cpp)
+add_executable(NetServer SimpleServer.cpp)
 
 # Связываем с библиотекой NetCommon
-target_link_libraries(NetClient NetCommon)  # Зависимость от NetCommon
+target_link_libraries(NetServer NetCommon)  # Зависимость от NetCommon
 
 # Указываем где искать NetCommon
-link_directories(../NetCommon) # Указываем директорию, где искать библиотеку NetCommon
+link_directories(../NetCommon) # Указываем директоzрию, где искать библиотеку NetCommon
 
 #Указываем на необходимость сборки перед линковкой NetCommon
-add_dependencies(NetClient NetCommon)
+add_dependencies(NetServer NetCommon)

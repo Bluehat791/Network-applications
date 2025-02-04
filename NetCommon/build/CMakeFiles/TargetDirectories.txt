@@ -1,3 +1,7 @@
-/home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles/templates1.dir
+/home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles/NetCommon.dir
 /home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles/edit_cache.dir
 /home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles/rebuild_cache.dir
+/home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles/list_install_components.dir
+/home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles/install.dir
+/home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles/install/local.dir
+/home/anatoliy/projects/edu/Network-Applications/NetCommon/build/CMakeFiles/install/strip.dir
