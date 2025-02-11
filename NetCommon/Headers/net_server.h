@@ -65,7 +65,7 @@ namespace olc
                             {
                                 m_deqConnections.push_back(std::move(newconn));
 
-                                m_deqConnections.back()->ConnectToClient(nIDCounter++);
+                                m_deqConnections.back()->ConnectToClient(this,nIDCounter++);
 
                                 std::cout << "[" << m_deqConnections.back()->getID << "] Connection Approved\n";
                             }
@@ -134,8 +134,10 @@ namespace olc
             }
 
 
-            void Update(size_t nMaxMessages = -1)
+            void Update(size_t nMaxMessages = -1, bool bWait = false)
             {
+                if(bWait) m_qMessageIn.wait();
+
                 size_t nMessageCount = 0;
                 while (nMessageCount < nMaxMessages && !m_qMessageIn.empty())
                 {
@@ -160,6 +162,11 @@ namespace olc
             }
 
             virtual void OnMessage(std::shared_ptr<connection<T>> client, message<T>& msg)
+            {
+
+            }
+        public:
+            virtual void OnClientValidated(std::shared_ptr<connection<T>> client)
             {
 
             }

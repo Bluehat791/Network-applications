@@ -91,3 +91,22 @@ int main()
     
     return 0;
 }
+
+int main()
+{
+    CustomClient c;
+    c.Connect("127.0.0.1", 600000);
+
+    bool key[3] = { false, false, false};
+    bool old_key[3] = { false, false, false };
+
+    bool bQuit = false;
+    while(!bQuit)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            /* code */
+        }
+        
+    }
+}
