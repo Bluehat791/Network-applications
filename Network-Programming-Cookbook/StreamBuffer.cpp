@@ -16,6 +16,6 @@ int main()
 
     std::getline(input,message1);
 
-    std::cout << input << "\n";
+    
     return 0;
 }
